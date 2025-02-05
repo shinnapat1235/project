@@ -1,14 +1,24 @@
-# airplane tickets
+# Project
 
-**airplane tickets** เป็นการเขียนโปรแกรมด้วยภาษา C++ ที่จำลองการซื้อตั๋วเครื่องบิน
-ไฟล์นี้แสดงตัวอย่างการเขียนโค้ดในภาษา C++ ให้ผู้ใช้กรอกข้อมูลส่วนตัว เลือกสถานที่ เวลา และชั้นโดยสารและทำการจองตํ๋ว
+**airplane tickets** It is a program written in C++ that simulates purchasing an airplane ticket.
+This file provides an example code written in C++ that allows the user to enter personal information, select a location, time and cabin class and make a booking.
 📄 **ดูเอกสารเพิ่มเติมได้ที่:**  
 [airplane tickets](https://github.com/shinnapat1235/project/blob/main/1.txt) 
 
 ___________
 
-
-**airplane tickets** เป็นการเขียนโปรแกรมด้วยภาษา C++ ที่จำลองการซื้อตั๋วเครื่องบิน
-ไฟล์นี้แสดงตัวอย่างการเขียนโค้ดในภาษา C++ ให้ผู้ใช้กรอกข้อมูลส่วนตัว เลือกสถานที่ เวลา และชั้นโดยสารและทำการจองตํ๋ว
+**Cake Shop Application** It is a design simulation of an app that sells cakes with a screen for logging in and buying various products. 
 📄 **ดูเอกสารเพิ่มเติมได้ที่:**  
-[airplane tickets](https://www.figma.com/design/5Pbvb6mRNwL2hItI22s2Ez/Untitled?node-id=0-1&p=f&t=frKeUTOQ2QUs6Axf-0)  
+[Cake Shop Application](https://www.figma.com/design/5Pbvb6mRNwL2hItI22s2Ez/Untitled?node-id=0-1&p=f&t=frKeUTOQ2QUs6Axf-0)  
+
+___________
+
+**Bread Shop Wepsite** It was an experiment in creating a business selling bread for presentation.
+📄 **ดูเอกสารเพิ่มเติมได้ที่:**  
+[Bread Shop Wepsite](https://www.figma.com/design/dmh6ZfV0ATR72kwgBjdyD6/Untitled?node-id=0-1&p=f&t=2njr9ouSf1xU98AE-0)  
+
+___________
+
+**Laundry System** It is the design of the laundry shop system and the creation of a database through PHPMyAdmin and the design of the website and user interface.
+📄 **ดูเอกสารเพิ่มเติมได้ที่:**  
+[ Laundry System](https://github.com/shinnapat1235/project/tree/main/Laundry)  
