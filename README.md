@@ -22,4 +22,4 @@ ___________
 **Laundry System** It is the design of the laundry shop system and the creation of a database through PHPMyAdmin and the design of the website and user interface.
 📄 **ดูเอกสารเพิ่มเติมได้ที่:**  
 [ Laundry System](https://github.com/shinnapat1235/project/tree/main/Laundry)
-[Preview Website & tool](https://github.com/shinnapat1235/project/blob/main/Laundry/files/tool.pdf)
+[Preview Website & tool](https://drive.google.com/file/d/1mPvrZ7xTwiapCoiYroQRHT1iLYYvUEcC/view?usp=sharing)
