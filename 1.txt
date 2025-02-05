@@ -1,0 +1,494 @@
+# Train Ticket System  
+
+โค้ดนี้เป็นระบบจองตั๋วรถไฟที่ให้ผู้ใช้กรอกข้อมูลส่วนตัว เลือกสถานที่ เวลา และชั้นโดยสาร  
+
+```c
+<#include<stdio.h>
+#include<conio.h>
+#include<string.h>
+void main()
+{
+ int location,ticket,Class,Day,trianstime;
+ char name1[30];
+ char name2[30];
+ char name3[30];
+ char phone[20];
+ char gmail[50];
+ {
+ printf("\t\t||*************************************||\n");
+ printf("\t\t||# Welcome to Trains ticket system #  ||\n");
+ printf("\t\t||*************************************||\n");
+}
+ getch();
+ {
+ printf("\t||*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*||\n");
+ printf("\t||Please enter your information to the transaction ||\n");
+ printf("\t||*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*||\n");
+}
+getch();
+
+
+
+ // User information
+ printf("Firstname :");
+ scanf("%s", &name1);
+ printf("Middlename :");
+ scanf("%s", &name2);
+ printf("Lastname :");
+ scanf("%s", &name3);
+ printf("Phone Number :");
+ scanf("%s", &phone);
+ printf("Gmail :");
+ scanf("%s", &gmail);
+ system("cls");
+ 
+ // Select country
+ printf("\n|*/*/*/*/*/*/*/*/*/*/*/*/*/*|\n");
+ printf("\n|-----Choose a location-----|\n");
+ printf("\n|*/*/*/*/*/*/*/*/*/*/*/*/*/*|\n");
+ char s1[20],s2[10];
+ strcpy(s1,"[1] Ko");
+ strcpy(s2,"rea");
+ strcat(s1,s2);
+ printf("%s\n",s1);
+ 
+ strcpy(s1,"[2] Ja");
+ strcpy(s2,"pan");
+ strcat(s1,s2);
+ printf("%s\n",s1);
+ 
+ strcpy(s1,"[3] Swit");
+ strcpy(s2,"zerland");
+ strcat(s1,s2);
+ printf("%s\n",s1);
+ 
+ strcpy(s1,"[4] Fra");
+ strcpy(s2,"nce");
+ strcat(s1,s2);
+ printf("%s\n",s1);
+ 
+ strcpy(s1,"[5] Ice");
+ strcpy(s2,"land");
+ strcat(s1,s2);
+ printf("%s\n",s1);
+ 
+ strcpy(s1,"[6] Ita");
+ strcpy(s2,"ly");
+ strcat(s1,s2);
+ printf("%s\n",s1);
+ 
+ strcpy(s1,"[7] Du");
+ strcpy(s2,"bai");
+ strcat(s1,s2);
+ printf("%s\n",s1);
+ 
+ strcpy(s1,"[8] Nether");
+ strcpy(s2,"land");
+ strcat(s1,s2);
+ printf("%s\n",s1);
+ 
+ strcpy(s1,"[9] Rus");
+ strcpy(s2,"sia");
+ strcat(s1,s2);
+ printf("%s\n",s1);
+ 
+ strcpy(s1,"[10] Sp");
+ strcpy(s2,"ain");
+ strcat(s1,s2);
+ printf("%s\n",s1);
+ 
+ 
+ // Select a location and enter information.
+ printf("Please select your logation by enter number : ");
+ scanf("%d", &location);
+ 
+ if(location == 1)
+ {
+  printf("YOU CHOOSE : Korea\n");
+ }
+ else if(location == 2)
+ {
+  printf("YOU CHOOSE : Japan\n");
+ }
+  else if(location == 3)
+ {
+  printf("YOU CHOOSE : Switzerland\n");
+ }
+  else if(location == 4)
+ {
+  printf("YOU CHOOSE : France\n");
+ }
+  else if(location == 5)
+ {
+  printf("YOU CHOOSE : Iceland\n");
+ }
+  else if(location == 6)
+ {
+  printf("YOU CHOOSE : Italy\n");
+ }
+  else if(location == 7)
+ {
+  printf("YOU CHOOSE : Dubai\n");
+ }
+  else if(location == 8)
+ {
+  printf("YOU CHOOSE : Netherland\n");
+ }
+  else if(location == 9)
+ {
+  printf("YOU CHOOSE : Russia\n");
+ }
+  else if(location == 10)
+ {
+  printf("YOU CHOOSE : Spain\n");
+ }
+  else
+ { 
+  printf("Location not found \n"); 
+ }
+  system("cls");
+ 
+ // Select time
+  printf("\n|*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/|\n");
+  printf("\n|-----Choose a Flight time-----|\n");
+  printf("\n|*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/|\n");
+  char s3[20],s4[10];
+  
+ strcpy(s3,"[1] 1:00");
+ strcpy(s4,"PM");
+ strcat(s3,s4);
+ printf("%s\n",s3);
+ 
+ strcpy(s3,"[2] 2:00");
+ strcpy(s4,"PM");
+ strcat(s3,s4);
+ printf("%s\n",s3);
+ 
+ strcpy(s3,"[3] 3:00");
+ strcpy(s4,"PM");
+ strcat(s3,s4);
+ printf("%s\n",s3);
+ 
+ strcpy(s3,"[4] 4:00");
+ strcpy(s4,"PM");
+ strcat(s3,s4);
+ printf("%s\n",s3);
+ 
+ strcpy(s3,"[5] 5:00");
+ strcpy(s4,"PM");
+ strcat(s3,s4);
+ printf("%s\n",s3);
+ 
+ strcpy(s3,"[6] 6:00");
+ strcpy(s4,"PM");
+ strcat(s3,s4);
+ printf("%s\n",s3);
+ 
+ 
+ //Select time and enter information.
+  printf("Please enter number to select a flihghttime :");
+  scanf("%d",&trianstime);
+  
+  if(trianstime == 1)
+ {
+  printf("YOU CHOOSE : 1:00 PM\n");
+ }
+  else if(trianstime == 2)
+ {
+  printf("YOU CHOOSE : 2:00 PM\n");
+ }
+  else if(trianstime == 3)
+ {
+  printf("YOU CHOOSE : 3:00 PM\n");
+ }
+  else if(trianstime == 4)
+ {
+  printf("YOU CHOOSE : 4:00 PM\n");
+ }
+  else if(trianstime == 5)
+ {
+  printf("YOU CHOOSE : 5:00 PM\n");
+ }
+  else if(trianstime == 6)
+ {
+  printf("YOU CHOOSE : 6:00 PM\n");
+ }
+  else
+ {
+  printf("time not found"); 
+ }
+  system("cls");
+ 
+  // Select Class 
+  printf("\n|*/*/*/*/*/*/*/*|\n");        
+  printf("\n|-----Class-----|\n");
+  printf("\n|*/*/*/*/*/*/*/*|\n");  
+  char s5[20],s6[10];
+  
+ strcpy(s5,"[1] Frist");
+ strcpy(s6,"Class");
+ strcat(s5,s6);
+ printf("%s\n",s5);
+ 
+ strcpy(s5,"[2] Bisuness");
+ strcpy(s6,"Class");
+ strcat(s5,s6);
+ printf("%s\n",s5);
+ 
+ strcpy(s5,"[3] Econamy");
+ strcpy(s6,"Class");
+ strcat(s5,s6);
+ printf("%s\n",s5);
+ 
+ strcpy(s5,"[4] PremiumEconamy");
+ strcpy(s6,"Class");
+ strcat(s5,s6);
+ printf("%s\n",s5);
+ 
+ 
+ //Select Class and enter information.
+  printf("Please enter number to select a class :");
+  scanf("%d",&Class);
+  
+  if(Class == 1)
+ {
+  printf("YOU CHOOSE : First Class\n");
+ }
+  else if(Class == 2)
+ {
+  printf("YOU CHOOSE : Business Class\n");
+ }
+  else if(Class == 3)
+ {
+  printf("YOU CHOOSE : Economy Class\n");
+ }
+  else if(Class == 4)
+ {
+  printf("YOU CHOOSE : Premium Economy Class\n");
+ }
+  else
+ {
+  printf("Data not found\n");
+ }
+  system("cls");
+  
+ //Select Day
+  printf("\n|/*/*/*/*/*/*/|\n");  
+  printf("\n|-----Day-----|\n");
+  printf("\n|/*/*/*/*/*/*/|\n");
+ char s7[20],s8[10];
+ 
+ strcpy(s7,"[1] Mon");
+ strcpy(s8,"day");
+ strcat(s7,s8);
+ printf("%s\n",s7);
+ 
+ strcpy(s7,"[2] Tues");
+ strcpy(s8,"day");
+ strcat(s7,s8);
+ printf("%s\n",s7);
+ 
+ strcpy(s7,"[3] Wednes");
+ strcpy(s8,"day");
+ strcat(s7,s8);
+ printf("%s\n",s7);
+ strcpy(s7,"[4] Thurs");
+ 
+ strcpy(s8,"day");
+ strcat(s7,s8);
+ printf("%s\n",s7);
+ 
+ strcpy(s7,"[5] Fri");
+ strcpy(s8,"day");
+ strcat(s7,s8);
+ printf("%s\n",s7);
+ 
+ strcpy(s7,"[6] Saturday");
+ strcpy(s8,"day");
+ strcat(s7,s8);
+ printf("%s\n",s7);
+ 
+ strcpy(s7,"[7] Sun");
+ strcpy(s8,"day");
+ strcat(s7,s8);
+ printf("%s\n",s7);
+ 
+ 
+ // Select day and enter information.
+  printf("Please select your Day by enter number : ");
+  scanf("%d", &Day);
+  
+  if(Day == 1)
+ {
+  printf("YOU CHOOSE : Monday\n");
+ }
+  else if(Day == 2)
+ {
+  printf("YOU CHOOSE : Tuseday\n");
+ }
+  else if(Day == 3)
+ {
+  printf("YOU CHOOSE : Wednesday\n");
+ }
+  else if(Day == 4)
+ {
+  printf("YOU CHOOSE : Thursday\n");
+ }
+  else if(Day == 5)
+ {
+  printf("YOU CHOOSE : Friday\n");
+ }
+  else if(Day == 6)
+ {
+  printf("YOU CHOOSE : Saturday\n");
+ }
+  else if(Day == 7)
+ {
+  printf("YOU CHOOSE : Sunday\n");
+ }
+  else
+ {
+  printf("Error!\n"); 
+ }
+  system("cls");
+ 
+ // list summary
+ printf("\n|*******************************|\n");
+ printf("\n|-----Your airplane tickets-----|\n");
+ printf("\n|*******************************|\n");
+ 
+ {
+  printf("Firstname   : %s\n", name1);
+  printf("Middlename   : %s\n", name2);
+  printf("Lastname   : %s\n", name3);
+  printf("Phone Number   : %s\n", phone);
+  printf("Gmail    : %s\n", gmail);
+  
+  
+  // summary of selected positions
+  if(location == 1)
+  {
+  printf("Location    : Korea\n");
+  }
+  else if(location == 2)
+  {
+  printf("Location    : Japan\n");
+  }
+  else if(location == 3)
+  {
+  printf("Location    : Switzerland\n");
+  }
+  else if(location == 4)
+  {
+  printf("Location    : France\n");
+  }
+  else if(location == 5)
+  {
+  printf("Location    : Iceland\n");
+  }
+  else if(location == 6)
+  {
+  printf("Location    : Italy\n");
+  }
+  else if(location == 7)
+  {
+  printf("Location    : Dubai\n");
+  }
+  else if(location == 8)
+  {
+  printf("Location    : Netherland\n");
+  }
+  else if(location == 9)
+  {
+  printf("Location    : Russia\n");
+  }
+  else if(location == 10)
+  {
+  printf("Location    : Spain\n");
+  }
+  
+  
+  // Selected class summary
+  if(Class == 1)
+  {
+  printf("Class     : Frist Class\n");
+  }
+  else if(Class == 2)
+  {
+  printf("Class     : Business Class\n");
+  }
+  else if(Class == 3)
+  {
+  printf("Class     : Econamy Class\n");
+  }
+  else if(Class == 4)
+  {
+  printf("Class     : Premium Econamy Class\n");
+  }
+  
+  
+  // summary of selected day
+  if(Day == 1)
+  {
+  printf("Day     : Monday\n");
+  }
+  else if(Day == 2)
+  {
+  printf("Day     : Tuseday\n");
+  }
+  else if(Day == 3)
+  {
+  printf("Day     : Wednesday\n");
+  }
+  else if(Day == 4)
+  {
+  printf("Day     : Thursday\n");
+  }
+  else if(Day == 5)
+  {
+  printf("Day     : Friday\n");
+  }
+  else if(Day == 6)
+  {
+  printf("Day     : Saturday\n");
+  }
+  else if(Day == 7)
+  {
+  printf("Day     : Sunday\n");
+  }
+  
+  
+  // Summary of selected time
+  if(trianstime == 1)
+  {
+  printf("Flighttime   : 1:00 PM\n");
+  }
+  else if(trianstime == 2)
+  {
+  printf("Flighttime   : 2:00 PM\n");
+  }
+  else if(trianstime == 3)
+  {
+  printf("Flighttime   : 3:00 PM\n");
+  }
+  else if(trianstime == 4)
+  {
+  printf("Flighttime   : 4:00 PM\n");
+  }
+  else if(trianstime == 5)
+  {
+  printf("Flighttime   : 5:00 PM\n");
+  }
+  else if(trianstime == 6)
+  {
+  printf("Flighttime   : 6:00 PM\n");
+  }
+ }
+  printf("Please enter the number of ticket :");
+  scanf("%d", &ticket);
+   
+  printf("\n|********************************|\n");
+  printf("|Thank you for using the service.|");
+  printf("\n|********************************|\n");
+  return 0;>
+
