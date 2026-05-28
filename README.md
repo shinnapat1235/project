@@ -24,3 +24,11 @@ ___________
 -[ Laundry System](https://github.com/shinnapat1235/project/tree/main/Laundry)
 \
 -[Preview Website & tool](https://drive.google.com/file/d/1mPvrZ7xTwiapCoiYroQRHT1iLYYvUEcC/view?usp=sharing)
+
+___________
+
+**Automated testing ผ่าน Playwright** This provides a foundation and practice in automated testing using Playwright.
+📄 **ดูเอกสารเพิ่มเติมได้ที่:**  
+-[ Automated testing(Playwright)]()
+\
+-[Preview Website & tool](https://docs.google.com/spreadsheets/d/1UYChCrbIFPiGeuXOIlW4XPF6ApVTuwYk/edit?usp=sharing&ouid=115237930731490120389&rtpof=true&sd=true)
