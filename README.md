@@ -27,8 +27,8 @@ ___________
 
 ___________
 
-**Automated testing ผ่าน Playwright** This provides a foundation and practice in automated testing using Playwright.
+**Learn about automated testing through Playwright.** This provides a foundation and practice in automated testing using Playwright.
 📄 **ดูเอกสารเพิ่มเติมได้ที่:**  
--[ Automated testing(Playwright)]()
+-[ Automated testing(Playwright)](https://github.com/shinnapat1235/project/tree/main/Automated%20testing%20(Playwright))
 \
--[Preview Website & tool](https://docs.google.com/spreadsheets/d/1UYChCrbIFPiGeuXOIlW4XPF6ApVTuwYk/edit?usp=sharing&ouid=115237930731490120389&rtpof=true&sd=true)
+-[Test case](https://docs.google.com/spreadsheets/d/1UYChCrbIFPiGeuXOIlW4XPF6ApVTuwYk/edit?usp=sharing&ouid=115237930731490120389&rtpof=true&sd=true)
